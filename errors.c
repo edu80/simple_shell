@@ -1,5 +1,7 @@
 #include "main.h"
 
+#include <stdio.h>
+
 /**
  * perror_permission - prints the permission denied error message.
  * @file: the name of the file

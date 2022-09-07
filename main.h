@@ -7,6 +7,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
+#include <fcntl.h>
+#include <limits.h>
+#include <time.h>
 #include <string.h>
 
 
