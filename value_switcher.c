@@ -44,7 +44,6 @@ int switcher(int val, char *com_path, char **flags, char **env, char **av,
 		return (daddy(av));
 	}
 	return (0);
- 
 }
 /**
  * executer - forks current process to run execve
