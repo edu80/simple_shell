@@ -6,6 +6,8 @@
 #include <sys/wait.h>
 #include <stdio.h>
 #include <signal.h>
+#include <time.h>
+#include <stdbool.h>
 
 typedef void (*sighandler_t)(int);
 

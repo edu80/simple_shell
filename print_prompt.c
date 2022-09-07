@@ -93,7 +93,7 @@ int perror_string(char *s)
 		return (0);
 
 	for (i = 0; s[i]; i++)
-		j += write(STDERR_FILENO, &s[i], 1);
+		j = j+ write(STDERR_FILENO, &s[i], 1);
 
 	return (j);
 }
